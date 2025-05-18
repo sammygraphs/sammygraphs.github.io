@@ -144,3 +144,76 @@
   </footer>
 </body>
 </html>
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #1976d2;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #0d47a1;
+  border-bottom: 2px solid #1976d2;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #555;
+  margin-top: 2rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1565c0;
+}
+
